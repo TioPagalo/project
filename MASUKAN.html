@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(to right, rgb(48, 0, 0), red);
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            flex: 1;
+        }
+        .logo img {
+            max-height: 50px;
+        }
+        .sponsor {
+            flex: 1;
+            text-align: right;
+            font-size: 0.8em;
+            color: #ddd;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="SKgroup logo with red, white, black colors, sticker printing machine, racing and digital printing theme.png" alt="Logo Toko">
+            <div class="sponsor">Sponsor Here</div>
+        </div>
+        <h1>Kontak Kami</h1>
+    </header>
+    <nav>
+        <a href="BERANDA.html">Beranda</a>
+        <a href="PRODUK.html">Produk</a>
+        <a href="MASUKAN.html">Kontak</a>
+        <a href="TESTIMONI.html">Testimoni</a>
+    </nav>
+    <div class="container">
+        <h2>Hubungi Kami</h2>
+        <form class="contact-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+            
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Toko Online Kami. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>

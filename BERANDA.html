@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKG store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        header {
+            background: linear-gradient(to right, rgb(48, 0, 0), red);
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            flex: 1;
+        }
+        .logo img {
+            max-height: 150px;
+        }
+        .sponsor {
+            flex: 1;
+            text-align: right;
+            font-size: 0.8em;
+            color: #ddd;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background: url('hero.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: #000000;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .hero h1 {
+            font-size: 4em;
+        }
+        .photos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .photos img {
+            max-width: 100%;
+            height: auto;
+            width: 45%;
+        }
+        .container {
+            padding: 20px;
+        }
+        .promo-banner {
+            color: #ccc;
+            background-color: #ff0000;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .featured-products {
+            margin-bottom: 20px;
+        }
+        .product {
+            color: #ccc;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, rgb(48, 0, 0), red);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="SK logo utama.png" alt="Logo Toko">
+            <div class="sponsor">Sponsor Here</div>
+        </div>
+        <h1>SINAR KASIH Official Store</h1>
+    </header>
+    <nav>
+        <a href="BERANDA.html">Beranda</a>
+        <a href="PRODUK.html">Produk</a>
+        <a href="MASUKAN.html">Kontak</a>
+        <a href="TESTIMONI.html">Testimoni</a>
+    </nav>
+    <div class="hero">
+        <h1>WELCOME</h1>
+        <div class="photos">
+            <img src="P2.png" alt="Foto 1">
+            <img src="SK logo utama.png" alt="Foto 2">
+        </div>
+    </div>
+    <div class="container">
+        <div class="promo-banner">Promo Spesial: Diskon 50% untuk Pembelian Pertama!</div>
+        <div class="featured-products">
+            <h2>Produk Unggulan</h2>
+            <div class="product">
+                <h3>T-Shirt</h3>
+                <p>T shirt Digital Printing By. SK group</p>
+                <a href="T-Shirt 1.html"><button>Beli Sekarang</button></a>
+            </div>
+            <div class="product">
+                <h3>Decal KLX</h3>
+                <p>Decal KLX150 old, KLX150 new</p>
+                <a href="Decal KLX.html"><button>Beli Sekarang</button></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Toko Online Kami. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
